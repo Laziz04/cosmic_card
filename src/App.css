@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+}
+
+.hover_box:hover {
+  cursor: pointer;
+}
+
+.card_box2 {
+  background: #ffffff;
+  border: 1px solid #e1e6ef;
+  cursor: pointer;
+  width: 50% !important;
+}
+
+.newCard_input {
+  width: 208px;
+  height: 56px;
+  gap: 12px;
+  border: none !important;
+  border-radius: 12px !important;
+  opacity: 0px !important;
+  outline: none !important;
+  background: #ffffff !important;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.button_hover1 {
+  width: 50%;
+  height: 56px;
+  padding: 8px 20px 8px 18px;
+  gap: 6px;
+  border-radius: 12px !important;
+  opacity: 0px;
+  background: #f2f5f7 !important;
+  color: black !important;
+}
+
+.button_hover {
+  width: 50%;
+  height: 56px;
+  padding: 8px 20px 8px 18px;
+  gap: 6px;
+  border-radius: 12px !important;
+  opacity: 0px;
+  background: #834cff !important;
+  color: white !important;
+  text-align: center;
+}
